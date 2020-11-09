@@ -1,0 +1,62 @@
+[debug] [2020-11-08T23:42:34.893Z] ----------------------------------------------------------------------
+[debug] [2020-11-08T23:42:34.898Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Emmanuel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-08T23:42:34.899Z] CLI Version:   8.15.1
+[debug] [2020-11-08T23:42:34.899Z] Platform:      win32
+[debug] [2020-11-08T23:42:34.899Z] Node Version:  v8.16.0
+[debug] [2020-11-08T23:42:34.900Z] Time:          Sun Nov 08 2020 17:42:34 GMT-0600 (Hora estándar central (México))
+[debug] [2020-11-08T23:42:34.900Z] ----------------------------------------------------------------------
+[debug] [2020-11-08T23:42:34.901Z] 
+[debug] [2020-11-08T23:42:34.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-08T23:42:34.917Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Server Node JS\TransportesMaram
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using apimaram. 
+[debug] [2020-11-08T23:42:50.162Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/apimaram  
+ 
+[debug] [2020-11-08T23:42:50.643Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 08 Nov 2020 23:42:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote /404.html 
+[debug] [2020-11-08T23:43:05.167Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-11-08T23:43:05.420Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","cross-origin-resource-policy":"cross-origin","content-length":"1411","date":"Sun, 08 Nov 2020 23:22:27 GMT","expires":"Mon, 09 Nov 2020 00:12:27 GMT","last-modified":"Thu, 05 Nov 2020 20:31:07 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"1239","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote /index.html 
+[info] 
+=== Remoteconfig Setup
+[debug] [2020-11-08T23:45:49.365Z] Error: EISDIR: illegal operation on a directory, open 'C:\Server Node JS\TransportesMaram'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.writeFileSync (fs.js:1299:33)
+    at Config.writeProjectFile (C:\Users\Emmanuel\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:156:8)
+    at Object.<anonymous> (C:\Users\Emmanuel\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\remoteconfig.js:45:16)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Emmanuel\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\remoteconfig.js:5:58)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+[error] 
+[error] Error: An unexpected error has occurred.
