@@ -19,18 +19,18 @@ class MensajeController {
           "Messages":[
             {
               "From": {
-                "Email": "emmanuel_burciaga@hotmail.com",
-                "Name": "Emmanuel"
+                "Email": "Paginaweb@transportesmaram.com",
+                "Name": "Pagina Web"
               },
               "To": [
                 {
-                  "Email": "gudjohnsen.10@hotmail.com",
-                  "Name": "Emmanuel"
+                  "Email": "ventas@transportesmaram.com",
+                  "Name": "Transportes Maram"
                 }
               ],
-              "Subject": "Correo GrupoMaram",
-              "TextPart": "Información para renta de unidades sprinter.",
-              "HTMLPart": "Buen día, la persona "+Nombre+", con Correo: "+Correo+", dice: "+Mensaje+" .",
+              "Subject": "Correo desde TransportesMaram",
+              "TextPart": "Se solicita información.",
+              "HTMLPart": "<strong>Nombre: </strong> "+Nombre+" <br><br> <strong>Correo Electrónico: </strong> "+Correo+" <br><br> <strong>Asunto: </strong>"+Mensaje+" . <br><br><br> Mensaje Generado desde: <strong>TransportesMaram.com</strong>",
               "CustomID": "AppGettingStartedTest"
             }
           ]
